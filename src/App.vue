@@ -5,6 +5,7 @@
 <template>
   <div>
     <HelloMap /> 
+    <view-router></view-router>
   </div>
 </template>
 
