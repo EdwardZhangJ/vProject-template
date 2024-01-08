@@ -8,6 +8,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('../views/home/index.vue'),
     name: 'home',
   },
+  {
+    path: '/404',
+    component: () => import('../views/error/index.vue'),
+    name: 'error',
+  },
 ]
 
 export const router = createRouter({
