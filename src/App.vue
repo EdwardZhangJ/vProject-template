@@ -4,8 +4,7 @@
 
 <template>
   <div>
-    <HelloMap /> 
-    <view-router></view-router>
+    <router-view></router-view>
   </div>
 </template>
 

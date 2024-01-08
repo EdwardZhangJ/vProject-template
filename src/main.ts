@@ -3,7 +3,6 @@ import { setupStore } from './store'
 import { setupRouter } from './router'
 import { setupVuePrototype } from './setup'
 
-import './style.css'
 import 'virtual:uno.css'
 import App from './App.vue'
 
